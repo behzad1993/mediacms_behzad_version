@@ -64,6 +64,7 @@ EXPOSE 9000 80
 
 RUN chmod +x ./deploy/docker/entrypoint.sh
 
-ENTRYPOINT ["./deploy/docker/entrypoint.sh"]
+ENTRYPOINT ["/home/behzad1993/mediacms_behzad_version/deploy/docker/entrypoint.sh"]
+# ENTRYPOINT ["./deploy/docker/entrypoint.sh"]
 
 CMD ["./deploy/docker/start.sh"]
